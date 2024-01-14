@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Issf registeration form
+        </title>
+        
+        <style>
+            body
+            {
+                background-image: url(issf9.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed ;
+            }
+
+            .registered
+            {
+                margin-left: 30px;
+                font-size: xx-large;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 style="font-size: xx-large;"><u><B>ISSF Registeration Form</B></u></h1><br><br>
+        <div class="registered">
+
+        <form action="form.php" method="get">
+            
+            <h3>Persnol Information</h3>
+
+            <label>Enter your Name</label>
+            <input type="text" name="username" required><br><br>
+            <label>Enter your Father Name</label>
+            <input type="text" name="username" required><br><br>
+            <label>Enter your Mother Name</label>
+            <input type="text" name="username" required><br><br>
+            <label>Contact no.</label>
+            <input type="number" name="contact number" required><br><br>
+            <label>Enter your Email id</label>
+            <input type="email" name="email id" required><br><br>
+            <label>Enter your Age</label>
+            <input type="number" name="age" required><br><br>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" id="a">
+            <label for="a">Male</label>
+            <input type="radio" name="gender" id="b">
+            <label for="b">Female</label>
+            <input type="radio" name="gender" id="c">
+            <label for="c">Other</label><br><br>
+
+        
+            
+            <h3>Address</h3>
+
+            <label>Enter your City</label>
+            <input type="text" name="city" required><br><br>
+            <label>Enter your State</label>
+            <input type="text" name="state" required><br><br>
+            <label>Enter your Pincode</label>
+            <input type="number" name="pincode" required><br><br>
+            <label>Enter your Residential Address</label>
+            <input type="text" name="residential address" required><br><br>
+            <label>Enter your Current Address</label>
+            <input type="text" name="current address" required><br><br>
+
+            <h3>Previous Match Shooting Record</h3>
+
+            <label>Enter your last 60 shots Match Score</label>
+            <input type="number" name="Score" required><br><br>
+            <label>Enter your last team Match Score</label>
+            <input type="number" name="team Score" required><br><br>
+            <label>Enter your last 40 Shots Match Score </label>
+            <input type="number" name="Score" required><br><br>
+            <label>last tournament you Played</label>
+            <input type="text" name="Name" required><br><br>
+            <label>last National level tournament you Played</label>
+            <input type="text" name="Name" required><br><br> 
+            <input type="submit" value="register"><br><br>
+            
+        </form>
+    
+        </div>
+       
+    </body>
+</html>

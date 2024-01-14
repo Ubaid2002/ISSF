@@ -1,0 +1,65 @@
+*{margin : 0;}
+
+ul  li a{text-decoration: none;}
+
+ul li a{text-decoration: wavy;}
+
+ul li a{text-transform: uppercase;}
+
+ul li a{text-align: center}
+
+ul li a{padding-right: 65px;}
+
+ul {display: flex;}
+
+ul li{padding: 25px;}
+
+ul {list-style-type: none;}
+
+ul {background-color: lightgreen;}
+
+.issf ul:hover{background-color: blueviolet;}
+
+.issf ul li :hover{color: yellow;}
+
+body{background-color: steelblue;}
+
+u2 ,u3 {list-style-type: none;}
+
+u2, u3 {display: flex;}
+
+.form h1{color: yellow;text-align: center;}
+
+u4 {color: yellow;}
+
+h1{color: yellow;text-align: center;font-size: 50px;}
+
+.login{color: gold;text-align: center;}
+
+.registered{color: black;text-align: center; font-size: larger; text-transform: capitalize;}
+
+h3{color: greenyellow;text-align: center; font-size: 40px;}
+
+.social u1{list-style-type: none; display: flex;}
+
+.social{margin-left: 580px;}
+
+.link p1{color: aliceblue;}
+
+.link{margin-inline: 185px;}
+
+.link1 p1{color: aliceblue;}
+
+.linked{display: flex;}
+
+.issfgallery u4{display:flex;}
+
+.issfgallery u4{list-style-type: none;}
+
+.about u5{list-style-type: none;}
+
+.Issfpartners{margin-left: 200px; margin-top: 30px;}
+
+.isssfpartners{margin-left: 200px; margin-top: 30px;}
+
+.issfgallery{margin-left: 170px; margin-top: 100px;}

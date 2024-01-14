@@ -1,0 +1,7 @@
+*{margin-left : 0; margin-right : 0;}
+
+table,tr,th,td{ border: 3px solid black;  border-collapse: collapse; text-align: center; color: indigo; 
+ background-color: lightseagreen; padding: 5px;
+}
+
+table{ width: 100%;}
